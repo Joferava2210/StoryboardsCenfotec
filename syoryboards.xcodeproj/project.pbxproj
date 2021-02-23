@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A09EF7625E2EE520065ACCA /* AgregarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09EF7525E2EE520065ACCA /* AgregarTableViewController.swift */; };
 		8AC0184A25D8168D00E94623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0184925D8168D00E94623 /* AppDelegate.swift */; };
 		8AC0184C25D8168D00E94623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0184B25D8168D00E94623 /* SceneDelegate.swift */; };
 		8AC0184E25D8168D00E94623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0184D25D8168D00E94623 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A09EF7525E2EE520065ACCA /* AgregarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarTableViewController.swift; sourceTree = "<group>"; };
 		8AC0184625D8168D00E94623 /* syoryboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syoryboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC0184925D8168D00E94623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC0184B25D8168D00E94623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				8AC0185225D8168E00E94623 /* Assets.xcassets */,
 				8AC0185425D8168E00E94623 /* LaunchScreen.storyboard */,
 				8AC0185725D8168E00E94623 /* Info.plist */,
+				8A09EF7525E2EE520065ACCA /* AgregarTableViewController.swift */,
 			);
 			path = syoryboards;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				8AC0184E25D8168D00E94623 /* ViewController.swift in Sources */,
 				8AC0184A25D8168D00E94623 /* AppDelegate.swift in Sources */,
+				8A09EF7625E2EE520065ACCA /* AgregarTableViewController.swift in Sources */,
 				8AC0184C25D8168D00E94623 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

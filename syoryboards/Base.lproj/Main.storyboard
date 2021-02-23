@@ -217,7 +217,7 @@
         <!--Add Player-->
         <scene sceneID="DVw-wa-ef0">
             <objects>
-                <tableViewController title="Add Player" id="yK3-pZ-86S" sceneMemberID="viewController">
+                <tableViewController title="Add Player" id="yK3-pZ-86S" customClass="AgregarTableViewController" customModule="syoryboards" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="gvr-23-g8I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,8 +287,15 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Player" id="ZQk-qu-RDa">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="KAA-wM-isX"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="t9f-ka-Fwj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="t9f-ka-Fwj">
+                            <connections>
+                                <action selector="doneButton:" destination="yK3-pZ-86S" id="RzS-vy-LAd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameTextField2" destination="NKc-7C-TYQ" id="JL2-fF-sTb"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pA2-4E-Q0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
